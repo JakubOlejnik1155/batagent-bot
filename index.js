@@ -58,7 +58,7 @@ const monitoringFunction = () => {
 
       let mailOptions = {
         from: 'batagentBot@gmail.com',
-        to: 'jakub.k.olejnik@gmail.com',
+        to: ["jakub.k.olejnik@gmail.com"], // pass here your emails
         subject: 'New Boats avaliable!',
         html: `
         <div style="background-color: #d4d4d4; padding: 20px; font-family: sans-serif; max-width: 400px; margin: 0 auto;">
